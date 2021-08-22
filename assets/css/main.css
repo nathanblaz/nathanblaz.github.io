@@ -3012,6 +3012,15 @@ input, select, textarea {
 			overflow-y: auto;
 		}
 
+			#menu > .inner h2 {
+				font-size: 1em;
+				margin-bottom: 0px;
+			}
+
+			#menu > .inner h4 {
+				color: #aeaeae;
+			}
+
 			#menu > .inner > ul {
 				list-style: none;
 				margin: 0 0 1em 0;
