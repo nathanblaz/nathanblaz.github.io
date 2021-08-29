@@ -2674,6 +2674,30 @@ button:disabled,
   margin: -2.5em 0 0 -2.5em;
 }
 
+#projects,
+#skills,
+#about__me {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+}
+
+#projects,
+#about__me {
+  margin-bottom: 1rem;
+}
+
+#projects h2,
+#skills h2,
+#about__me h2 {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.about__inner {
+  width: 61%;
+}
+
 .tiles article {
   -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
   -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
@@ -2905,6 +2929,12 @@ body.is-touch .tiles article .content {
   }
 }
 
+.tiles__links {
+  position: absolute;
+  /* padding-top: 1rem; */
+  /* bottom: -3.5rem; */
+}
+
 @media screen and (max-width: 480px) {
   .tiles {
     margin: 0;
@@ -2913,6 +2943,10 @@ body.is-touch .tiles article .content {
   .tiles article {
     width: 100%;
     margin: 1.25em 0 0 0;
+  }
+
+  .about__inner {
+    width: 100%;
   }
 }
 
@@ -3275,6 +3309,7 @@ body.is-menu-visible #menu .close {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  height: 8rem;
   /* max-height: 15vw; */
 }
 
