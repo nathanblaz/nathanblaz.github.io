@@ -3309,7 +3309,7 @@ body.is-menu-visible #menu .close {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 8rem;
+  /* height: 8rem; */
   /* max-height: 15vw; */
 }
 
